@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#282828"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/closebutton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/close" />
+
+    <EditText
+        android:id="@+id/SMSreceive"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/roundbox_message"
+        android:gravity="top"
+        android:padding="10dp"
+        android:textColor="#ff663f"
+        android:textSize="20sp" >
+    </EditText>
+
+</LinearLayout><!-- From: file:/C:/Users/binamra/AndroidstudioProjects/premiumsms/app/src/main/res/layout/activity_smsreceived.xml -->
